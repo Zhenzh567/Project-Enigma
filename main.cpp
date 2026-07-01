@@ -81,6 +81,7 @@ std::string encode(const std::string& src, std::string key, int r1, int r2, int 
 }
 
 int main() {
+    system("chcp 65001");
     std::string key = "ABC";
     int r1 = 0, r2 = 1, r3 = 2;
 
